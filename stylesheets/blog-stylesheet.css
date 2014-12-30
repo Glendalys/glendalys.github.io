@@ -10,11 +10,11 @@ html{
     display: inline-block;
     width: 40%;
     float:left;
-    margin: 30px, 30px, 30px, 30px;
+    margin-right: 60px;
 }
 .rightcolumn {
     display: inline-block;
     width: 40%;
     float:right;
-    margin: 30px, 30px, 30px, 30px;
+    margin-right: 60px;
 }

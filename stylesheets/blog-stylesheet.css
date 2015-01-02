@@ -2,4 +2,11 @@
     margin-light: 60px;
  }
 
+.blogimage {
+    ; clear: both;
+}
 
+.posttitle {
+    float: left; width: 97.5%;
+    text-align: left;
+}

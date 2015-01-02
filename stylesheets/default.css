@@ -15,7 +15,8 @@ nav ul li {
   display:inline; margin:10px;
 }
 
-.features {border:1px solid grey; margin:5px; padding:8px;float: right}
+
+.features {border:1px solid grey; margin:50px; padding:8px;float: right;}
 
 .style {margin-left: -40px;}
 
@@ -27,6 +28,12 @@ nav ul li {
 
 .f2 {display: inline-block;
     width: 40%; float:right; margin-right: 50px; margin-left: -38px}
+
+section.gif h3 {margin-left: 20px;}
+
+
+.gif {border:1px solid grey; margin:50px; padding:8px;float: left;}
+}
 
 .blogindeximage {
   border:1px solid grey; margin:5px; padding:8px;float: left;

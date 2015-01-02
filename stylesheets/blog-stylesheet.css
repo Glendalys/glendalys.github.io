@@ -2,19 +2,20 @@
     margin-light: 60px;
  }
 
+main h3 {
+    margin-left: 5px;
+}
+
+
 article.posttitle {
     width: 97.5%; text-align: left; margin: 5px;
 }
 
 
 .blogimage {
-    clear: both; margin-right: 300px;
+    clear: both;
 }
 
 .blog {
     text-align: left;
-}
-
-main h3 {
-    margin-left: 5px;
 }

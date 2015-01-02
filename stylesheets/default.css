@@ -29,14 +29,14 @@ nav ul li {
 .f2 {display: inline-block;
     width: 40%; float:right; margin-right: 50px; margin-left: -38px}
 
-.phase0image{border:1px solid grey; margin:50px; padding:8px;float: left;}
+.phase0image{border:1px solid grey; margin: 40px; padding:8px;float: left;position: absolute;}
 
 section.gif h3 {margin-left: 20px;}
 
-.gif {border:1px solid grey; margin:50px; padding:8px;float: left;}
+.gif {border:1px solid grey; margin:50px; padding:8px;float: left;position: absolute;}
 
-.blogtable {border:1px solid grey; margin:50px; padding:20px;float: right; width:500px;height:551px;
-}
+.blogtable {border:1px solid grey; margin: 40px; padding:20px;float: right; width: 450px;height:551px;
+position: relative;}
 
 main h3 {
   width: 400px; margin-left: 70px;

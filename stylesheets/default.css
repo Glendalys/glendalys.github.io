@@ -7,15 +7,21 @@ header, nav, footer {
 header {
   font-size: 1em;
 }
-section, article {
-  border:1px solid grey; margin:5px; padding:8px;float: right;
-}
+
 nav ul {
   margin:0; padding:0; text-align: right;
 }
 nav ul li {
   display:inline; margin:10px;
 }
+
+.blogindeximage {
+  border:1px solid grey; margin:5px; padding:8px;float: left;
+}
+
+.blogtable {border:1px solid grey; margin:5px; padding:20px;float: right; width:500px;height:551px;
+}
+
 main h3 {
   width: 400px; margin-left: 70px;
 }

@@ -20,3 +20,19 @@ table {display: inline-block;
     margin-top: 40px;}
 a:hover {color: red;}
 p {text-align: left; margin: 5px }
+
+Blog style sheet
+.leftcolumn {
+    display: inline-block;
+    width: 40%;
+    float:left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.rightcolumn {
+    display: inline-block;
+    width: 40%;
+    float:right;
+    margin-right: 60px;
+    margin-top: 50px;
+}

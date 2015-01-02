@@ -3,10 +3,11 @@
  }
 
 .blogimage {
-    ; clear: both;
+    clear: both; margin-right: 300px;
 }
 
 .posttitle {
-    float: left; width: 97.5%;
-    text-align: left;
+    width: 97.5%; text-align: left;
 }
+
+

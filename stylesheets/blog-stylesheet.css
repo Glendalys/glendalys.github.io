@@ -13,9 +13,9 @@ article.posttitle {
 
 
 .blogimage {
-    clear: both;
+    border:1px solid grey;
 }
 
 .blog {
-    text-align: left;
+    border:1px solid grey; margin:50px; padding:8px; float: left; text-align: left;
 }

@@ -1,8 +1,10 @@
 body {
-  font-family: 'Dosis', sans-serif; font-size:1em;
+  font-family: 'Dosis', sans-serif; font-size:1em; 
+  /* background-color: rgb(244, 240, 233); */
 }
 header, nav, footer {
   border:1px solid grey; margin:5px; padding:8px;clear: both;
+  background-color: rgb(245, 245, 177);
 }
 header h1 a {
   font-size: 1em; text-decoration: none; color: black;
@@ -10,13 +12,14 @@ header h1 a {
 
 nav ul {
   margin:0; padding:0; text-align: right;
+  background-color: whitesmoke;
 }
 nav ul li {
   display:inline; margin:10px;
 }
 
 
-.features {border:1px solid grey; margin:50px; padding:8px;float: right;}
+.features {border:1px solid grey; margin:50px; padding:8px;float: right;background-color: rgb(244, 244, 228);}
 
 .style {margin-left: -40px;}
 
@@ -33,7 +36,7 @@ nav ul li {
 
 section.gif h3 {margin-left: 20px;}
 
-.gif {border:1px solid grey; margin:50px; padding:8px;float: left;position: absolute;}
+.gif {border:1px solid grey; margin:50px; padding:8px;float: left;position: absolute;background-color: rgb(243, 244, 234);}
 
 .blogtable {border:1px solid grey; margin: 40px; padding:20px;float: right; width: 450px;height:551px;
 position: relative;}

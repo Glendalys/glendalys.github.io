@@ -32,14 +32,14 @@ nav ul li {
 .f2 {display: inline-block;
     width: 40%; float:right; margin-right: 50px; margin-left: -38px}
 
-.phase0image{border:1px solid grey; margin: 40px; padding:8px;float: left;position: absolute;}
+.phase0image{border:1px solid grey; margin: 40px; padding:8px;float: left;position: absolute;background-color: rgb(205, 239, 135);}
 
 section.gif h3 {margin-left: 20px;}
 
 .gif {border:1px solid grey; margin:50px; padding:8px;float: left;position: absolute;background-color: rgb(243, 244, 234);}
 
 .blogtable {border:1px solid grey; margin: 40px; padding:20px;float: right; width: 450px;height:551px;
-position: relative;}
+position: relative;background-color: rgb(198, 232, 128);}
 
 main h3 {
   width: 400px; margin-left: 70px;

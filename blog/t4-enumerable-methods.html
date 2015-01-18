@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>G.Medina Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<header>
+  <h1>Glendalys Medina</h1>
+</header>
+
+  <nav>
+    <ul>
+      <li><a href="../aboutme.html">About Me</a></li>
+      <li>Projects</li>
+      <li><a href="../blog-index.html">Blog</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+<body>
+
+<main>
+  <article>
+  <h1>Enumerable map</h1>
+  <h2>When and how to use it!</h2>
+  <h4>January 18, 2015</h4>
+  </article>
+</main>
+
+<section class="blogimage">
+<iframe width="560" height="315" src="//www.youtube.com/embed/1zWj9BReAX8" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+<section class= "blog">
+      <p>The  map method returns a new array with the results of running block once for every element in enum. If no block is given, an enumerator is returned instead.
+
+  <div class = "blog_table">
+    <table>
+      <tr>
+        <td>
+          <ul>(1..4).map { |i| i*i }      #=> [1, 4, 9, 16]
+          </ul>
+          <ul>(1..4).collect { "cat"  }   #=> ["cat", "cat", "cat", "cat"]
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+  </div class = "blog_table">
+</p>
+<p>
+        What if you want a transformed copy of arr without altering the original? This is where the Enumerable method map (also referred to as collect) comes in:
+
+<div class = "blog_table">
+   <table>
+      <tr>
+        <td>
+          <ul>arr = [1,2,3,4,5]</ul>
+          <ul>brr = arr.map{|x| -x}</ul>
+          <ul>puts arr.join(", ")   #=>   1, 2, 3, 4, 5</ul>
+          <ul>puts brr.join(", ") #=> -1, -2, -3, -4, -5
+          </ul>
+        </td>
+      </tr>
+    </table>
+ </div class = "blog_table">
+ </p>
+ <p>
+What's going on here? The map method returns a copy of the its invoking collection, which is why we can immediately chain the join method to its result, brr. Meanwhile, the original arr retains its unaltered values.
+Like each (in fact, map, and all the other Enumerable iterating methods are based off of each), map is invoked by a collection and accepts a block of code that acts upon each element in that collection. The main difference is thatmap returns that transformed collection:
+<div class = "blog_table">
+   <table>
+      <tr>
+        <td>
+          <ul>ark2 = ['cat', 'dog', 'pig', 'goat'].map{ |animal| animal.capitalize}
+     </ul>
+        </td>
+      </tr>
+    </table>
+ </div class = "blog_table">
+ </p>
+ <p>
+No need to initialize ark2 on its own line. As with methods, the last line in the code block is the value that will be part of the transformed collection.
+
+<div class = "blog_table">
+   <table>
+      <tr>
+        <td>
+         <ul>ark2 = ['cat', 'dog', 'pig', 'goat']
+          .map do |animal|</ul>
+          <ul>animal. capitalize    animal.upcase</ul>
+          <ul>end</ul>
+          <ul> puts ark2.join(", ")   #=>   "CAT, DOG, PIG, GOAT"
+          </ul>
+        </td>
+      </tr>
+    </table>
+ </div class = "blog_table">
+</p>
+ <p>
+However, if you want map to modify an array, you can use map!
+
+<div class = "blog_table">
+   <table>
+      <tr>
+        <td>
+         <ul>arr = [1,2,3,4,5] </ul>
+         <ul>arr.map!{|a| a - a}  </ul>
+         <ul>puts arr.join(',') #=> => [0, 0, 0, 0, 0]
+         </ul>
+        </td>
+      </tr>
+    </table>
+ </div class = "blog_table">
+
+</p>
+</section>
+
+
+<footer>
+ <a href= "https://github.com/Glendalys">
+    <img src="http://reno.gov/home/showimage?id=6126" height="42px" width="42px" id="github">
+  </a>
+  <a href= "https://twitter.com/GlendalysMedina">
+    <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-512.png" height="36px" width="36px" id="twitter"aaa>
+  </a>
+  <a href="https://www.linkedin.com/pub/glendalys-medina/8a/19/7b3">
+    <img src="http://www.iconsdb.com/icons/download/black/linkedin-4-512.png" width="33px" height="33px" id="linkedin">
+  </a>
+  <a href="http://instagram.com/glendalysmedina">
+    <img src="http://www.ymsketch.com/instagram-4-256.png" height="38px" width="40px" id="the_gram">
+</footer>
+
+</body>
+</html>

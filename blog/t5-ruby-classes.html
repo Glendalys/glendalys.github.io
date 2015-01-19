@@ -37,7 +37,7 @@
 </main>
 
 <section class="blogimage">
-    <iframe width="620" height="515" src="//www.youtube.com/embed/6UYORatUnfk" frameborder="0" allowfullscreen style= "margin-left: 250px;></iframe>"/>
+    <iframe width="620" height="515" src="//www.youtube.com/embed/6UYORatUnfk" frameborder="0" allowfullscreen style= "margin-left: 250px";></iframe>
 </section>
 
 <section class= "blog">
@@ -66,7 +66,7 @@ A basic class consists only of the class keyword and the name of the class. Chec
         <td>
         <ul>class NewClass
             <ul># Class magic here</ul>
-        <ul>end</ul>
+            <ul>end</ul>
         </td>
       </tr>
     </table>
@@ -76,12 +76,85 @@ Our NewClass has the ability to create new Ruby objects of class NewClass (just 
 </p>
 <p><h3>Classing It Up</h3>
 
- <img src="../media/Class_1.png">
-
+ <img src="../media/Class_1.png" style= "margin-left: 350px";>
+</p>
+<p>
 We would like our classes to do more than... well, nothing, so we will have to add some code between our class Person and end.
 You can think of initialize as the function that "boots up" each object the class creates.
 
-      </p>
+</p>
+<p><h3>What's in a @name?</h3>
+All right! Just one more step before we can create a person from our Person class: we have to make sure each person has a @name.
+In Ruby, we use @ before a variable to signify that it's an instance variable. This means that the variable is attached to the instance of the class. For example,
+<div class = "blog_table">
+    <table>
+      <tr>
+        <td>
+        <ul>class Car
+            <ul>def initialize(make, model)</ul> <ul>@make = make</ul>
+            <ul>@model = model</ul>
+            <ul>end</ul>
+            <ul>end</ul>
+            <ul>kitt = Car.new("Pontiac", "Trans Am")</ul>
+        </td>
+      </tr>
+    </table>
+</div class = "blog_table">
+creates an instance, kitt, of the class Car. kitt has his own @make ("Pontiac") and @model ("Trans Am"). Those variables belong to the kitt instance, which is why they're called instance variables.
+
+
+</p>
+<p><h3></h3>Instantiating Your First Object</h3>
+Perfect! Now we're ready to start creating objects. We can create an instance of a class just by calling .new on the class name, like so:
+</p>
+<p>
+<img src="../media/Class_2.png" style= "margin-left: 350px";>
+<img src="../media/Class_3.png" style= "margin-left: 350px";>
+</p>
+<p><h3>Scope it Out</h3>
+Another important aspect of Ruby classes is scope. The scope of a variable is the context in which it's visible to the program.
+It may surprise you to learn that not all variables are accessible to all parts of a Ruby program at all times. When dealing with classes, you can have variables that are available everywhere (global variables), ones that are only available certain methods (local variables), others that are members of a certain class (class variables), and variables that are only available to particular instances of a class (instance variables).
+The same goes for methods: some are available everywhere, some are only available to members of a certain class, and still others are only available to particular instance objects.
+</p>
+<p><h3>Naming Your Variables</h3>
+
+<img src="../media/Class_4.png" style= "margin-left: 350px";>
+</p>
+<p>
+Recall that instance variables begin with an @. This isn't just a Ruby convention—it's part of the syntax! Always start your instance variables with @.
+Class variables are like instance variables, but instead of belonging to an instance of a class, they belong to the class itself. Class variables always start with two @s, like so: @@files.
+Global variables can be declared in two ways. The first is one that's already familiar to you: you just define the variable outside of any method or class, and voilà! It's global. If you want to make a variable global from inside a method or class, just start it with a $, like so: $matz.
+</p>
+<p><h3>
+Twice the @, Twice as Classy
+</h3>
+
+
+We can create class variables by starting a variable name with two @ symbols. Class variables are attached to entire classes, not just instances of classes, like so:
+<div class = "blog_table">
+    <table>
+      <tr>
+        <td>
+        <ul>
+class MyClass
+   @@class_variable
+end
+        </ul>
+        </td>
+      </tr>
+    </table>
+</div class = "blog_table">
+Because there's only one copy of a class variable shared by all instances of a class, we can use them to pull off some cool Ruby tricks. For example, we can use a class variable to keep track of the number of instances of a class we've created.
+
+</p>
+<p><h3>
+Serious Business</h3>
+However, classes and objects are often used to model real-world objects. For example, many programs that you write might involve people—an address-book program for keeping track of your friends, a contact-manager program for your business contacts, or a program for tracking employees. Although the programs may be considerably different, the attributes that apply to a person would be the same. Every person has a name, an age, an address, and a phone number. For example:
+</P>
+<p>
+<img src="../media/Class_6.png" style= "margin-left: 350px";>
+</p>
+
 </section>
 
 

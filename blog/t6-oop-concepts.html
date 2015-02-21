@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>G.Medina Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<header>
+  <h1>Glendalys Medina</h1>
+</header>
+
+  <nav>
+    <ul>
+      <li><a href="../aboutme.html">About Me</a></li>
+      <li>Projects</li>
+      <li><a href="blog-index.html">Blog</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+<body>
+
+<main>
+  <article>
+  <h1>Objected-Oriented and Functional Programming</h1>
+  <h4>February 20, 2015</h4>
+  </article>
+</main>
+
+<section class="blogimage">
+    <iframe width="700" height="500" src="https://www.youtube.com/embed/F_en0E2kSug" frameborder="0" allowfullscreen style= "margin-left: 225px;"></iframe>
+    </section>
+
+<section class= "blog">
+      <h3>Object Oriented</h3>
+      <p>
+       The first step in OOP is to identify all the objects the programmer wants to manipulate and how they relate to each other, an exercise often known as data modeling.Once an object has been identified,  it is generalized as a class of objects which defines the kind of data it contains and any logic sequences that can manipulate it. Each distinct logic sequence is known as a method. Objects communicate with well-defined interfaces called messages. Object oriented languages attach all data and programming logic to an object.  In the object oriented approach we would have a person object and it would contain the person's name and date of birth within the object.  If we wanted to compute the person's age, we would define a method on the object called something like computeAge and it would give us the person's age.  The code in this case is called a method and not a function since it is specifically attached to the object. In short Object-oriented programming (OOP) is a programming language model organized around objects rather than "actions" and data rather than logic.
+      </p>
+      <p>The concepts and rules used in object-oriented programming provide these important benefits:</p>
+<p>
+  <ul>
+    <li>The concept of a data class makes it possible to define subclasses of data objects that share some or all of the main class characteristics. Called inheritance, this property of OOP forces a more thorough data analysis, reduces development time, and ensures more accurate coding.
+    </li>
+
+    <li>Since a class defines only the data it needs to be concerned with, when an instance of that class (an object) is run, the code will not be able to accidentally access other program data. This characteristic of data hiding provides greater system security and avoids unintended data corruption.</li>
+
+    <li>The definition of a class is reuseable not only by the program for which it is initially created but also by other object-oriented programs (and, for this reason, can be more easily distributed for use in networks).</li>
+
+    <li>The concept of data classes allows a programmer to create any new data type that is not already defined in the language itself.</li>
+</ul>
+</p>
+    <h3>Functional</h3>
+      <p>
+        Finding a consistent definition of functional programming is tough, and most of the literature relies on somewhat foreboding statements like “functions as first-class objects,” and “eliminating side effects.” In short, functional programming languages borrow from the idea of functions from mathematics. In functional programming you define functions to perform programming logic. A beginner needs to understand only two concepts in order to use it for everyday applications (no calculus required!).
+      <ul>
+        <li>
+        First, data in functional programs should be immutable, which sounds serious but just means that it should never change. At first, this might seem odd (after all, who needs a program that never changes anything?), but in practice, you would simply create new data structures instead of modifying ones that already exist. For example, if you need to manipulate some data in an array, then you’d make a new array with the updated values, rather than revise the original array. Easy!</li>
+        <li>Secondly, functional programs should be stateless, which basically means they should perform every task as if for the first time, with no knowledge of what may or may not have happened earlier in the program’s execution (you might say that a stateless program is ignorant of the past). Combined with immutability, this helps us think of each function as if it were operating in a vacuum, blissfully ignorant of anything else in the application besides other functions. In more concrete terms, this means that your functions will operate only on data passed in as arguments and will never rely on outside values to perform their calculations.</li>
+      </ul>
+      </p>
+      <h4>Well that's all for now. As I learn more...I'll share more.</h4>
+    </section>
+
+
+<footer>
+ <a href= "https://github.com/Glendalys">
+    <img src="http://reno.gov/home/showimage?id=6126" height="42px" width="42px" id="github">
+  </a>
+  <a href= "https://twitter.com/GlendalysMedina">
+    <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-512.png" height="36px" width="36px" id="twitter"aaa>
+  </a>
+  <a href="https://www.linkedin.com/pub/glendalys-medina/8a/19/7b3">
+    <img src="http://www.iconsdb.com/icons/download/black/linkedin-4-512.png" width="33px" height="33px" id="linkedin">
+  </a>
+  <a href="http://instagram.com/glendalysmedina">
+    <img src="http://www.ymsketch.com/instagram-4-256.png" height="38px" width="40px" id="the_gram">
+</footer>
+
+</body>
+</html>

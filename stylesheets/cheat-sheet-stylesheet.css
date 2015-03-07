@@ -3,6 +3,14 @@ html {
   background-color: #BCED91;
 }
 
+nav ul {
+  margin:0; padding:0; text-align: right;
+  background-color: whitesmoke;
+}
+nav ul li {
+  display:inline; margin:10px;
+}
+
 h2 {
   display: block;
   text-align: center;

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>G.Medina Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<header>
+  <h1>Glendalys Medina</h1>
+</header>
+
+  <nav>
+    <ul>
+      <li><a href="../aboutme.html">About Me</a></li>
+      <li>Projects</li>
+      <li><a href="blog-index.html">Blog</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+<body>
+
+<main>
+  <article>
+  <h1>How the internet work...</h1>
+
+  <h4>March 7, 2015</h4>
+  </article>
+</main>
+
+<section class="blogimage">
+    <iframe width="700" height="500" src="https://www.youtube.com/embed/7_LPdttKXPc" frameborder="0" allowfullscreen style= "margin-left: 225px;"></iframe>
+
+    </section>
+
+<section class= "blog">
+      <p>
+      To understand the Internet, it helps to look at it as a system with two main components. The first of those components is hardware. That includes everything from the cables that carry terabits of information every second to the computer sitting in front of you.
+Other types of hardware that support the Internet include routers, servers, cell phone towers, satellites, radios, smartphones and other devices. All these devices together create the network of networks. The Internet is a malleable system -- it changes in little ways as elements join and leave networks around the world. Some of those elements may stay fairly static and make up the backbone of the Internet. Others are more peripheral.
+These elements are connections. Some are end points -- the computer, smartphone or other device you're using to read this may count as one. We call those end points clients. Machines that store the information we seek on the Internet are servers. Other elements are nodes which serve as a connecting point along a route of traffic. And then there are the transmission lines which can be physical, as in the case of cables and fiber optics, or they can be wireless signals from satellites, cell phone or 4G towers, or radios.
+All of this hardware wouldn't create a network without the second component of the Internet: the protocols. Protocols are sets of rules that machines follow to complete tasks. Without a common set of protocols that all machines connected to the Internet must follow, communication between devices couldn't happen. The various machines would be unable to understand one another or even send information in a meaningful way. The protocols provide both the method and a common language for machines to use to transmit data.
+We'll take a closer look at protocols and how information travels across the Internet on the next page.
+
+      </p>
+      <h2>A Matter of Protocols</h2>
+      <p>
+       You've probably heard of several protocols on the Internet. For example, hypertext transfer protocol is what we use to view Web sites through a browser -- that's what the http at the front of any Web address stands for. If you've ever used an FTP server, you relied on the file transfer protocol. Protocols like these and dozens more create the framework within which all devices must operate to be part of the Internet.
+Two of the most important protocols are the transmission control protocol (TCP) and the Internet protocol (IP). We often group the two together -- in most discussions about Internet protocols you'll see them listed as TCP/IP.
+What do these protocols do? At their most basic level, these protocols establish the rules for how information passes through the Internet. Without these rules, you would need direct connections to other computers to access the information they hold. You'd also need both your computer and the target computer to understand a common language.
+You've probably heard of IP addresses. These addresses follow the Internet protocol. Each device connected to the Internet has an IP address. This is how one machine can find another through the massive network.
+The version of IP most of us use today is IPv4, which is based on a 32-bit address system. There's one big problem with this system: We're running out of addresses. That's why the Internet Engineering Task Force (IETF) decided back in 1991 that it was necessary to develop a new version of IP to create enough addresses to meet demand. The result was IPv6, a 128-bit address system. That's enough addresses to accommodate the rising demand for Internet access for the foreseeable future [source: Opus One].
+When you want to send a message or retrieve information from another computer, the TCP/IP protocols are what make the transmission possible. Your request goes out over the network, hitting domain name servers (DNS) along the way to find the target server. The DNS points the request in the right direction. Once the target server receives the request, it can send a response back to your computer. The data might travel a completely different path to get back to you. This flexible approach to data transfer is part of what makes the Internet such a powerful tool.
+Let's take a closer look at how information travels across the Internet.
+      </p>
+      <h2>Packet, Packet, Who's Got the Packet?</h2>
+      <p>In order to retrieve this article, your computer had to connect with the Web server containing the article's file. We'll use that as an example of how data travels across the Internet.
+First, you open your Web browser and connect to our Web site. When you do this, your computer sends an electronic request over your Internet connection to your Internet service provider (ISP). The ISP routes the request to a server further up the chain on the Internet. Eventually, the request will hit a domain name server (DNS).
+This server will look for a match for the domain name you've typed in (such as www.howstuffworks.com). If it finds a match, it will direct your request to the proper server's IP address. If it doesn't find a match, it will send the request further up the chain to a server that has more information.
+The request will eventually come to our Web server. Our server will respond by sending the requested file in a series of packets. Packets are parts of a file that range between 1,000 and 1,500 bytes. Packets have headers and footers that tell computers what's in the packet and how the information fits with other packets to create an entire file. Each packet travels back up the network and down to your computer. Packets don't necessarily all take the same path -- they'll generally travel the path of least resistance.
+That's an important feature. Because packets can travel multiple paths to get to their destination, it's possible for information to route around congested areas on the Internet. In fact, as long as some connections remain, entire sections of the Internet could go down and information could still travel from one section to another -- though it might take longer than normal.
+When the packets get to you, your device arranges them according to the rules of the protocols. It's kind of like putting together a jigsaw puzzle. The end result is that you see this article.
+This holds true for other kinds of files as well. When you send an e-mail, it gets broken into packets before zooming across the Internet. Phone calls over the Internet also convert conversations into packets using the voice over Internet protocol (VoIP). We can thank network pioneers like Vinton Cerf and Robert Kahn for these protocols -- their early work helped build a system that's both scalable and robust.
+That's how the Internet works in a nutshell. As you look closer at the various devices and protocols, you'll notice that the picture is far more complex than the overview we've given. It's a fascinating subject -- learn more by following the links on the next page.</p>
+    </section>
+
+
+<footer>
+ <a href= "https://github.com/Glendalys">
+    <img src="http://reno.gov/home/showimage?id=6126" height="42px" width="42px" id="github">
+  </a>
+  <a href= "https://twitter.com/GlendalysMedina">
+    <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-512.png" height="36px" width="36px" id="twitter"aaa>
+  </a>
+  <a href="https://www.linkedin.com/pub/glendalys-medina/8a/19/7b3">
+    <img src="http://www.iconsdb.com/icons/download/black/linkedin-4-512.png" width="33px" height="33px" id="linkedin">
+  </a>
+  <a href="http://instagram.com/glendalysmedina">
+    <img src="http://www.ymsketch.com/instagram-4-256.png" height="38px" width="40px" id="the_gram">
+</footer>
+
+</body>
+</html>

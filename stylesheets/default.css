@@ -2,9 +2,29 @@ body {
   font-family: 'Dosis', sans-serif; font-size:1em;
   /* background-color: rgb(244, 240, 233); */
 }
-header, nav, footer {
-  border:1px solid grey; margin:5px; padding:8px;clear: both;
-  background-color: rgb(245, 245, 177);
+
+#mainPhoto{
+  ;
+}
+
+#tag_line{
+margin-top: -17em;
+opacity: .1;
+transition:.7s ease-in-out;
+text-shadow: .1px .1px black;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+font-size: 1.2em;
+color: white;
+padding-bottom: 250px;
+text-decoration: underline;
+font-style: italic;
+font-family: -webkit-body;
+}
+footer {
+margin:5px; clear: both;
+
 }
 header h1 a {
   font-size: 1em; text-decoration: none; color: black;

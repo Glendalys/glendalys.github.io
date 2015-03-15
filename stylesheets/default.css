@@ -1,20 +1,5 @@
 body {
   font-family: 'Dosis', sans-serif; font-size:1em;
-  /* background-color: rgb(244, 240, 233); */
-}
-
-#mainPhoto{
-  ;
-}
-
-#tag_line{
-margin-top: -15em;
-margin-right: auto;
-margin-left: auto;
-text-align: center;
-font-size: 1.5em;
-font-style: italic;
-color: black;
 }
 
 header h1 a {
@@ -29,18 +14,32 @@ nav ul li {
   display:inline; margin:10px;
 }
 
-#aboutme, #contact {
-margin: -25em;
-margin-right: 300px;
-margin-left: 300px;
+#tag_line{
+border: 1px;
+background-color: rgb(120, 107, 96);
+width: 550px;
+margin-left: 280px;
+position: relative;
 text-align: center;
-font-size: 1em;
-padding-bottom: 100px;
 font-style: italic;
-color: black;
+color: whitesmoke;
+margin-top: -350px;
+font-size: 25px;
 }
 
-.features {border:1px solid grey; margin:50px; padding:8px;float: right;background-color: rgb(244, 244, 228);}
+
+#aboutme, #contact {
+border: 1px;
+background-color: rgb(120, 107, 96);
+width: 550px;
+margin-top: -450px;
+margin-left: 280px;
+position: relative;
+text-align: center;
+font-size: 1em;
+font-style: italic;
+color: white;
+}
 
 .style {margin-left: -40px;}
 
@@ -54,14 +53,33 @@ color: black;
     width: 40%; float:right; margin-right: 50px; margin-left: -38px}
 
 
-.phase0image{border:1px solid grey; margin: 17px; padding:20px;float: left;position: absolute;background-color: rgb(205, 239, 135);}
+.blogtable1{border: 1px; color: white;
+  background-color: rgb(120, 107, 96);
+  color: white;
+  margin-top: -500px;
+  margin-left: 75px;
+  padding:8px;
+  position: absolute;
+  width: 950px;
+  }
 
-section.gif h3 {margin-left: 20px;}
+.blogtable2 {
+ margin-top:-420px;
+ margin-right: -50px;
+ float: right;
+ width: 550px;
+ height:250px;
+ position: relative;
+ color: white;
+}
 
-.gif {border:1px solid grey; margin:50px; padding:8px;float: left;position: absolute;background-color: rgb(243, 244, 234);}
+section.blogtable1 table tbody tr td a {
+  color:whitesmoke;
+}
 
-.blogtable {border:1px solid grey; margin: 16px; padding:32px;float: right; width: 450px;height:551px;
-position: relative;background-color: rgb(198, 232, 128);}
+section.blogtable2 table tbody tr td a{
+color: whitesmoke;
+}
 
 main h3 {
   width: 400px; margin-left: 70px;
@@ -71,7 +89,5 @@ p {
 }
 
 footer {
-clear: both;
 text-align: center;
-padding-bottom: 40px;
 }

@@ -14,7 +14,7 @@ nav ul li {
   display:inline; margin:10px;
 }
 
-#tag_line{
+#tag_line, #contact {
 border: 1px;
 background-color: rgb(120, 107, 96);
 width: 550px;
@@ -28,7 +28,7 @@ font-size: 25px;
 }
 
 
-#aboutme, #contact {
+#aboutme{
 border: 1px;
 background-color: rgb(120, 107, 96);
 width: 550px;
@@ -90,4 +90,5 @@ p {
 
 footer {
 text-align: center;
+position: relative;
 }

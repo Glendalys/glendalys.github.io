@@ -1,17 +1,17 @@
- main article {
+/* main article {
     margin-light: 60px;
  }
 
 main h3 {
     margin-left: 5px;
 }
+*/
 
-
-article.posttitle {
+/*article.posttitle {
     width: 97.5%; text-align: left; margin: 5px;
 }
 
-
+*/
 .blogimage {
     margin:20px; padding:8px;display: block; margin-right: auto; margin-left: auto;
 }

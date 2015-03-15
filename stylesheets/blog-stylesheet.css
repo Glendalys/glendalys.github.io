@@ -13,15 +13,9 @@ article.posttitle {
 
 
 .blogimage {
-    border:1px solid grey;margin:20px; padding:8px;display: block; margin-right: auto; margin-left: auto;
+    margin:20px; padding:8px;display: block; margin-right: auto; margin-left: auto;
 }
 .blogimage img {
   border:1px solid grey;margin:20px; padding:8px;display: block; margin-right: auto; margin-left: auto;
 }
-/*.blog {
-    border:1px solid grey; margin:20px; padding:50px; text-align: left; margin-right: auto; margin-left: auto;*/
-}
 
-/*.blog table {
-  margin-left: 350px;
-}*/
